@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+
+import Works from './pages/Works';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          peepee poopoo
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Works />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
