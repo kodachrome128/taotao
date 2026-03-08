@@ -3,6 +3,12 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 // import SocialLinks from '../components/SocialLinks';
 // import AnimatedDiv from '../components/AnimatedDiv';
+import GridItem from '../components/GridItem';
+
+
+import Automotive from '../photos/automotive/dealership/ferrari_488_spider-1.jpg';
+import Street from '../photos/street/hong_kong-1.png';
+
 
 const Works = () => {
 
@@ -10,7 +16,10 @@ const Works = () => {
     <>
       <div>
         <Navbar />
-        <p>Works</p>
+        <div className="works-grid">
+          <GridItem image={Automotive} text="Automotive" />
+          <GridItem image={Street} text="Street" />
+        </div>
       </div>
     </>
   );

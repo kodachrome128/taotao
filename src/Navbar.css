@@ -1,22 +1,36 @@
-.navbar-desktop {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 8vh;
-  max-height: 100px;
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    max-height: 100px;
+    padding-top: 20px;
 }
 
-.navbar-desktop-items {
+.navbar-sections {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Aligns content in the center of each section */
+    flex: 1; /* Makes all sections grow equally */
+}
+
+.navbar-pages-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.navbar-pages-desktop-items {
   flex: 1 1 0px;
-  margin: 0 50px 0 50px;
-  font-size: 23px;
+  margin: 0 30px 0 30px;
+  font-size: 20px;
   text-align: center;
   min-width: 75px;
   max-width: 100px;
   font-family: 'IBMPlexSans-Text';
 }
 
-.navbar-mobile {
+.navbar-pages-mobile {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,10 +38,76 @@
   margin-top: 10px;
 }
 
-.navbar-mobile-items {
+.navbar-pages-mobile-items {
   flex: 1 1 0px;
   text-align: center;
   margin: 0 25px 0 25px;
   font-size: 20px;
   font-family: 'IBMPlexSans-Text';
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.active {
+  text-decoration: underline #191919;
+  text-underline-offset: 4px; /* Adjust the value as needed */
+}
+
+.link {
+  color: #727272;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.link:hover {
+  color: #191919;
+}
+
+.link:active {
+  color: rgb(50, 50, 50);
+  transition: 0.2s ease;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+.animated-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.animated-underline:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #191919; /* Set the underline color */
+  transition: width 0.1s ease;
+  left: 50%;
+  bottom: 0; /* Set to bottom instead of top */
+  transform: translateX(-50%);
+}
+
+.animated-underline:hover:after {
+  width: 100%;
+}
+
+.name {
+    font-family: 'IBMPlexSans-Text';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-pages-desktop-icons {
+    flex: 1 1 0px;
+    margin: 0 30px 0 30px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 50px;
+    font-family: 'IBMPlexSans-Text';
 }

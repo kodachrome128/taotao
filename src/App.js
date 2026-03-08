@@ -4,6 +4,10 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import './App.css';
 import './fonts.css';
+import './Navbar.css';
+import './Works.css';
+import './GridItem.css';
+
 
 import Works from './pages/Works';
 import Contact from './pages/Contact';

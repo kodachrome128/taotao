@@ -1,0 +1,45 @@
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: clamp(250px, 30vw, 500px);
+    aspect-ratio: 3 / 2;
+
+    flex: 0 0 auto;
+}
+
+.grid-item-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Tint layer */
+.grid-item-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.1); /* 10% tint */
+    transition: background 0.3s ease;
+}
+
+/* Darker tint on hover */
+.grid-item:hover .grid-item-overlay {
+    background: rgba(0,0,0,0.35);
+}
+
+/* Centered text */
+.grid-item-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+        
+    font-family: 'IBMPlexMono-Text';
+    color: white;
+    font-size: 1.4rem;
+    pointer-events: none;
+}
