@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'IBMPlexSans-Bold';
+    src: url('./fonts/ibm-plex-sans/IBMPlexSans-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-LightItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-LightItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Text';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Text.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-BoldItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-BoldItalic.woff2') format('woff2');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Medium';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Medium.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-TextItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-TextItalic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-ExtraLight';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-ExtraLight.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-MediumItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-MediumItalic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Thin';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Thin.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-ExtraLightItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-ExtraLightItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Regular';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-ThinItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-ThinItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Italic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Italic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-SemiBold';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-SemiBold.woff2') format('woff2');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-Light';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-Light.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexSans-SemiBoldItalic';
+src: url('./fonts/ibm-plex-sans/IBMPlexSans-SemiBoldItalic.woff2') format('woff2');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Bold';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2') format('woff2');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-LightItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-LightItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Text';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Text.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-BoldItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-BoldItalic.woff2') format('woff2');
+font-weight: bold;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Medium';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Medium.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-TextItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-TextItalic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-ExtraLight';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-ExtraLight.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-MediumItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-MediumItalic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Thin';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Thin.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-ExtraLightItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-ExtraLightItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Regular';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-ThinItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-ThinItalic.woff2') format('woff2');
+font-weight: lighter;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Italic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2') format('woff2');
+font-weight: normal;
+font-style: italic;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-SemiBold';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-SemiBold.woff2') format('woff2');
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Light';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-Light.woff2') format('woff2');
+font-weight: lighter;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'IBMPlexMono-SemiBoldItalic';
+src: url('./fonts/ibm-plex-mono/IBMPlexMono-SemiBoldItalic.woff2') format('woff2');
+font-weight: bold;
+font-style: italic;
+}

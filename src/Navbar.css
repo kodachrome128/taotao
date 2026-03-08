@@ -1,0 +1,33 @@
+.navbar-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  max-height: 100px;
+}
+
+.navbar-desktop-items {
+  flex: 1 1 0px;
+  margin: 0 50px 0 50px;
+  font-size: 23px;
+  text-align: center;
+  min-width: 75px;
+  max-width: 100px;
+  font-family: 'IBMPlexSans-Text';
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  margin-top: 10px;
+}
+
+.navbar-mobile-items {
+  flex: 1 1 0px;
+  text-align: center;
+  margin: 0 25px 0 25px;
+  font-size: 20px;
+  font-family: 'IBMPlexSans-Text';
+}
